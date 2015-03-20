@@ -1,5 +1,5 @@
 body {
-	background: url("images/japaniselantern.jpg");no-repeat center fixed;
+	background: url("images/japaniselantern.jpg") no-repeat center fixed;
 	background-color: rgb(203, 172, 255);
 	background-size: cover;
   	color: rgb(32, 32, 32);
@@ -8,15 +8,10 @@ body {
   	text-align: center;
 }
 h1 {
-	font-family: 'Open Sans';
-	color: rgb(32, 32, 32);
 	text-align: center; 
-	font-size:25px;
+	font-size:2em;
 	font-weight:bold;
 }
 p {
-	font-family: 'Open Sans';
-	color:  rgb(32, 32, 32);
-	text-align: left; 
-	font-size: 20px;
+	text-align: left;
 }
