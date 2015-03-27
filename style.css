@@ -1,4 +1,4 @@
-
+* { margin:0;padding:0;box-sizing:border-box; }
 body {
 	background: url("images/japaniselantern.jpg") no-repeat center fixed;
 	background-color: rgb(203, 172, 255);
@@ -6,16 +6,15 @@ body {
   	color: rgb(32, 32, 32);
   	font-family: 'Open Sans', sans-serif;
   	font-size: 18px;
-  	text-align: center;
 }
 h1 {
-	font-family:Helvetica, cursive;
-	text-align: left; 
 	font-size: 2em;
-	font-weight:bold;
+	font-weight:700;
 }
 p {
-	text-align: left
-	line-height: 2em;
-	margin: 2em;
+	line-height: 1.2em;
+	margin: 2em 0 2em 0;
+}
+ul {
+	text-align:center;
 }
