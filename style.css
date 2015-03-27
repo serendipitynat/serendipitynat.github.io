@@ -1,11 +1,26 @@
 * { margin:0;padding:0;box-sizing:border-box; }
 body {
-	background: url("images/japaniselantern.jpg") no-repeat center fixed;
-	background-color: rgb(203, 172, 255);
-	background-size: cover;
   	color: rgb(32, 32, 32);
   	font-family: 'Open Sans', sans-serif;
   	font-size: 18px;
+}
+section {
+	padding:4em 0 4em 0;	
+}
+section#splash {
+	background: url("images/japaniselantern.jpg") no-repeat center fixed;
+	background-color: rgb(203, 172, 255);
+	background-size: cover;
+	color:#ffffff;
+}
+section#about {
+	
+}
+section#contact {
+	
+}
+div {
+	
 }
 h1 {
 	font-size: 2em;
