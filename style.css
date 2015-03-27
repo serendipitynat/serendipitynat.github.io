@@ -1,22 +1,40 @@
-
+* { margin:0;padding:0;box-sizing:border-box; }
 body {
-	background: url("images/japaniselantern.jpg") no-repeat center fixed;
-	background-color: rgb(203, 172, 255);
-	background-size: cover;
   	color: rgb(32, 32, 32);
   	font-family: 'Open Sans', sans-serif;
   	font-size: 18px;
-  	text-align: center;
+}
+section {
+	padding:4em 0 4em 0;	
+}
+section#splash {
+	background: url("images/japaniselantern.jpg") no-repeat center fixed;
+	background-color: rgb(203, 172, 255);
+	background-size: cover;
+	color:#ffffff;
+}
+section#about {
+	
+}
+section#contact {
+	background-color:#dddddd;
+}
+div {
+	
 }
 h1 {
-	font-family:Helvetica, cursive;
-	text-align: left; 
 	font-size: 2em;
+<<<<<<< HEAD
 	font-weight:bold;
 	margin: 2em;
+=======
+	font-weight:700;
+>>>>>>> origin/master
 }
 p {
-	text-align: left
-	line-height: 2em;
-	margin: 2em;
+	line-height: 1.2em;
+	margin: 1em 0 1em 0;
+}
+li {
+	margin-bottom:1em;
 }
