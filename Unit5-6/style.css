@@ -59,15 +59,14 @@ h1,h2,h3 {
 
 .art {
   float: left;
-  width: 33.33%;
-  padding: 10px;
+  width: 50%;
+  padding: .5em;
   margin: 0;
   background-color: #fefcf2;
 }
 
-#artist {
+.art img {
 	display: block;
 	width: 100%;
 	margin: 0;
-	background: #fefcf2;
 } 
