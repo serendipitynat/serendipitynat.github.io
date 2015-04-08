@@ -59,12 +59,14 @@ h1,h2,h3 {
 
 .art {
   float: left;
-  width: 50%;
+  width: 38%;
   padding: .5em;
   margin: 0;
   background-color: #fefcf2;
 }
-
+.art:first-child {
+	width:62%;
+}
 .art img {
 	display: block;
 	width: 100%;
