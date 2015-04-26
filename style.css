@@ -1,3 +1,4 @@
+
 *{box-sizing:border-box;}
 body{
    background:#fefcf2;
@@ -74,14 +75,14 @@ h1,h2,h3 {
 
 .photos {
   float: left;
-  width: 38%;
+  width: 33%;
   padding: .5em;
   margin: 0;
   background-color: #fefcf2;
 }
-.photos:first-child {
+/*.photos:first-child {
    width:62%;
-}
+}*/
 .photos img {
    display: block;
    width: 100%;
@@ -90,14 +91,14 @@ h1,h2,h3 {
 
 .writing {
   float: left;
-  width: 38%;
+  width: 33%;
   padding: .5em;
   margin: 0;
   background-color: #fefcf2;
 }
-.writing:first-child {
+/*.writing:first-child {
    width:62%;
-}
+}*/
 .writing img {
    display: block;
    width: 100%;
@@ -106,21 +107,42 @@ h1,h2,h3 {
 
 .places {
   float: left;
-  width: 38%;
+  width: 33%;
   padding: .5em;
   margin: 0;
   background-color: #fefcf2;
 }
-.places:first-child {
+/*.places:first-child {
    width:62%;
-}
+}*/
 .places img {
    display: block;
    width: 100%;
    margin: 0;
 } 
 
-@media screen only and (min-width: 500px) {
-body {
-font-size: 12px;
+@media only screen and (max-width: 700px) {
+  .photos, .writing, .places {
+    width: 100%;
+  }
+
+  /* Add float to the header text "All the letters in my name" */
+
+  #Intro {
+    float: left;
+    width: 100%;
+  }
+
+  header nav {
+     float: left;
+     margin: 0;
+  }
+
+  header nav a { 
+    margin-left: 1em;
+  }
+
 }
+
+
+
