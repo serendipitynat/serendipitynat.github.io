@@ -28,9 +28,6 @@ footer {
    border-top: 2px solid #222;
 }
 
-/* START MODIFICATION BY ROY */
-/* Float each div that is a direct descendant of the footer
-by 50%, without margins, borders, or padding. */
 footer > div {
    float: left;
    width: 50%;
@@ -38,10 +35,8 @@ footer > div {
 }
 
 footer nav ul {
-   /* Remove bullets. */
-   list-style-type: none;
+    list-style-type: none;
 
-   /* Set the left margin of unordered lists back to the actual left margin. */
    margin-left: -40px;
    text-align: center;
 }
@@ -55,7 +50,6 @@ footer p:last-of-type {
    clear: both;
 }
 
-/* END MODIFICATION BY ROY */
 
 footer a.media {
    display: inline-block;
@@ -80,9 +74,7 @@ h1,h2,h3 {
   margin: 0;
   background-color: #fefcf2;
 }
-/*.photos:first-child {
-   width:62%;
-}*/
+
 .photos img {
    display: block;
    width: 100%;
@@ -96,9 +88,7 @@ h1,h2,h3 {
   margin: 0;
   background-color: #fefcf2;
 }
-/*.writing:first-child {
-   width:62%;
-}*/
+
 .writing img {
    display: block;
    width: 100%;
@@ -112,9 +102,7 @@ h1,h2,h3 {
   margin: 0;
   background-color: #fefcf2;
 }
-/*.places:first-child {
-   width:62%;
-}*/
+
 .places img {
    display: block;
    width: 100%;
@@ -125,8 +113,6 @@ h1,h2,h3 {
   .photos, .writing, .places {
     width: 100%;
   }
-
-  /* Add float to the header text "All the letters in my name" */
 
   #Intro {
     float: left;
